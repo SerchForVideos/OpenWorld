@@ -19,9 +19,9 @@ public class Ramanujan {
         int numSol=0,
             rank=5,
             cap=1;
-        ArrayList<BigInteger> prevSols=new ArrayList();
-        ArrayList<BigInteger> prevAs=new ArrayList();
-        ArrayList<BigInteger> prevBs=new ArrayList();
+        ArrayList prevSols=new ArrayList<>();
+        ArrayList prevAs=new ArrayList<>();
+        ArrayList prevBs=new ArrayList<>();
         while(numSol!=cap){
             sol=a.pow(rank).add(b.pow(rank));
             //System.out.println(""+sol.toString()+" = "+a.toString()+"^"+rank+" + "+b.toString()+"^"+rank);
