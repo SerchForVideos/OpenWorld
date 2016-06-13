@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Ramanujan {
     public static void main(String[] args) {
-        BigInteger sol=new BigInteger("0");
+        BigInteger sol;
         BigInteger a=new BigInteger("2");
         BigInteger b=new BigInteger("1");
         int numSol=0,
